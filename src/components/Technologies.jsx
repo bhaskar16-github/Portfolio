@@ -1,8 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa"
+import { DiMysql } from "react-icons/di"
+import { DiVisualstudio } from "react-icons/di"
 import { motion } from "framer-motion"
 
 const iconVariants = (duration)=>({
@@ -37,13 +37,6 @@ const Technologies = () => {
                     <RiReactjsLine className="text-7xl text-cyan-400"/>
                 </motion.div>
                 <motion.div 
-                    variants={iconVariants(5)}
-                    initial="intial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandNextjs className="text-7xl"/>
-                </motion.div>
-                <motion.div 
                     variants={iconVariants(7)}
                     initial="intial"
                     animate="animate"
@@ -51,18 +44,25 @@ const Technologies = () => {
                     <SiMongodb className="text-7xl text-green-500"/>
                 </motion.div>
                 <motion.div 
-                    variants={iconVariants(4)}
-                    initial="intial"
-                    animate="animate"
-                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiRedis className="text-7xl text-red-700"/>
-                </motion.div>
-                <motion.div 
-                    variants={iconVariants(6)}
+                    variants={iconVariants(5)}
                     initial="intial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaNodeJs className="text-7xl text-green-500"/>
+                </motion.div>
+                <motion.div 
+                    variants={iconVariants(3.5)}
+                    initial="intial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiMysql className="text-7xl text-blue-300"/>
+                </motion.div>
+                <motion.div 
+                    variants={iconVariants(1.5)}
+                    initial="intial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <DiVisualstudio className="text-7xl text-blue-500"/>
                 </motion.div>
             </motion.div>
   </div>
