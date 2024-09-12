@@ -9,10 +9,10 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaSquareXTwitter/>
-        <FaInstagram/>
+        <a href="https://www.linkedin.com/in/bhaskar-manikanta-492864245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin/></a>
+        <a href="https://github.com/bhaskar16-github"><FaGithub/></a>
+        <a href="https://x.com/BHASKARMANIKAN4?t=GF0UM1-TbD6wxD3ssODW7g&s=09"><FaSquareXTwitter/></a>
+        <a href="https://www.instagram.com/bhaskarmanikanta3?igsh=Zmxlemc3Nm4ycDg1"><FaInstagram/></a>
     </div>
   </nav>
 };
