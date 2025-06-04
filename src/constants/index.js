@@ -9,14 +9,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "August 2024 - September 2024",
     role: "Web Development Intern",
     company: "Apex Planet software Pvt.Ltd.",
     description: `Developed CRUD operations using PHP for Blogs. Implemented User Authentication, Search Functionality, Pagination and Integrated front-end Framework like Bootstrap. Added server-side validation and client-side validation for Integrity and MySQL is used for database.`,
     technologies: ["Javascript", "HTML", "CSS", "MySQL", "PHP", "Bootstrap"],
   },
   {
-    year: "August-October 2024",
+    year: "August 2024 -October 2024",
     role: "Full-Stack Web Developer Intern",
     company: "TalentBrainy.",
     description: `Developed Web Application and Login & Registration pages with Database.`,
